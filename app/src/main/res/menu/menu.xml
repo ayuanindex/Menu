@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_setting"
+        android:orderInCategory="100"
+        android:title="设置"
+        app:showAsAction="never" />
+    <!--
+        orderInCategory：条目显示的先后顺序（数值越小显示越靠前）
+    -->
+    <item
+        android:id="@+id/action_player"
+        android:orderInCategory="99"
+        android:title="显示"
+        app:showAsAction="never" />
+</menu>
